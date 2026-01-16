@@ -1,0 +1,78 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamSkirtX",
+			"GroupId": "",
+			"Name": "Skirt X"
+		},
+		{
+			"Id": "ParamSkirtY",
+			"GroupId": "",
+			"Name": "SkirtY"
+		},
+		{
+			"Id": "ParamHairSway",
+			"GroupId": "",
+			"Name": "Hair Sway"
+		},
+		{
+			"Id": "ParamHairCurl",
+			"GroupId": "",
+			"Name": "Hair Curl"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamBlink",
+			"GroupId": "",
+			"Name": "Blink"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "eyes",
+			"Name": "eyes"
+		},
+		{
+			"Id": "head",
+			"Name": "head"
+		},
+		{
+			"Id": "torso",
+			"Name": "torso"
+		},
+		{
+			"Id": "legs",
+			"Name": "legs"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamSkirtX",
+			"ParamSkirtY"
+		],
+		[
+			"ParamHairSway",
+			"ParamHairCurl"
+		]
+	]
+}
